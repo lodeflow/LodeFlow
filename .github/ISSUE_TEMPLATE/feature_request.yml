@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose something LodeFlow should do.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For open-ended ideas or "would it make sense to..." conversations,
+        [Discussions](../../discussions) is the better home — feature requests
+        here work best when the problem is concrete.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you hitting?
+      description: >
+        Describe the situation where LodeFlow gets in your way or falls short,
+        not just the feature you want. The problem is the durable part.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like LodeFlow to do?
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What do you do today instead?
+      description: Current workaround, other tools, or "nothing — I just live with it."

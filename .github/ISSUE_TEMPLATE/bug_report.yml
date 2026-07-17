@@ -1,0 +1,59 @@
+name: Bug report
+description: Something in LodeFlow is broken or behaving unexpectedly.
+title: "[Bug]: "
+labels: ["bug", "needs-repro"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. LodeFlow's source is private,
+        so your report is our only window into what happened — the more of the
+        fields below you can fill, the faster we can act on it.
+  - type: input
+    id: version
+    attributes:
+      label: LodeFlow version
+      description: Shown in Application Settings / the about panel.
+      placeholder: e.g. 0.4.2
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. Windows 11 Home 24H2
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent CLI in use (and version, if known)
+      description: Which agent was running in the affected session, if any.
+      placeholder: e.g. Claude Code 2.1.0, Codex CLI
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: >
+        Numbered steps from a fresh launch if possible. If it's intermittent,
+        say roughly how often it happens and what seems to trigger it.
+      placeholder: |
+        1. Open project X
+        2. Start a session with ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot / recording / logs
+      description: >
+        A screenshot or short screen recording is worth more than a paragraph —
+        drag and drop files here. Paste any relevant log output as text.
