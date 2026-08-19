@@ -13,8 +13,8 @@ body:
     id: version
     attributes:
       label: LodeFlow version
-      description: Shown in Application Settings / the about panel.
-      placeholder: e.g. 0.4.2
+      description: The Help menu shows it, under the LodeFlow name.
+      placeholder: e.g. stable b86
     validations:
       required: true
   - type: input
