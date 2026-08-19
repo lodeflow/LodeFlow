@@ -56,4 +56,6 @@ is worth more than a paragraph.
 
 ## Who's building this
 
-Built by **nhillen** (nhillen@gmail.com).
+Built by **[nhillen](https://github.com/nhillen)**. The best way to reach me
+about LodeFlow is an [issue](../../issues) or a
+[discussion](../../discussions) — both get read.
