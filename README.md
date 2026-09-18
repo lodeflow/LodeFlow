@@ -42,8 +42,9 @@ direct agents instead of hand-editing files.
   and a Markdown plan sits in a pane beside the terminal rather than in another
   window.
 
-Claude Code and Codex are the first-class pair. Antigravity is newly hosted and
-Kimi is experimental — both run, neither has the mileage the other two do.
+Claude Code and Codex carry the production mileage. Antigravity and Kimi are
+newer and have less of it — they run, they're hosted the same way, and they've
+had fewer hours against them.
 
 ## What it isn't
 
